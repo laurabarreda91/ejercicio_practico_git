@@ -46,7 +46,11 @@ df_top10 = df_total.nlargest(10, "Deaths")
 top10_countries_3 = df_top10["Country_Region"].tolist()
 top10_deaths = df_top10["Deaths"].tolist()
 
+<<<<<<< HEAD
 fig = make_subplots(
+=======
+fig = make_LO_QUE_TE_DE_LA_GANA(
+>>>>>>> branch-ticket-3-2
 rows = 4, cols = 6,
 specs=[
 [{"type": "scattergeo", "rowspan": 4, "colspan": 3},
