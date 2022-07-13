@@ -10,7 +10,11 @@ app.run(host='0.0.0.0',port=1991, debug=True)
 
 @app.route("/dashboard")
 def dashboard():
+<<<<<<< HEAD
 return render_template('dashboard.html')
+=======
+return render_template('ÑAÑAAÑÑAÑAÑAÑAÑÑA.html')
+>>>>>>> branch-ticket-3-2
 @app.route("/map")
 def map():
 return render_template('map.html')
